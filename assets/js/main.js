@@ -14,7 +14,7 @@
 //per i multipli di 5 stampi Buzz
 
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz
-// --> possiamo inserire delle condizioni all'interno del for. In questo caso avremo bisogno di 3 condizioni: if(), else if(), else();
+// --> possiamo inserire delle condizioni all'interno del for. In questo caso avremo bisogno di 3 condizioni: if(), else if(), else if();
 
 //individuare i multipli si può usare l'operatore % che calcola la divisione. Un numero è multiplo di 5 o di 3 qando il resto è 0.
 
