@@ -2,7 +2,7 @@
 
 
 
-//programma che stampi i numeri da 1 a 100 --> utilizzare: for, let i = n ; i ">" o "<"" o ">=" o "<=" 100 (in questo caso inseriamo ">=") e con console.log stamperemo i numeri da 0 a 100;
+//programma che stampi i numeri da 1 a 100 --> utilizzare: for, let i = n ; i ">" o "<"" o ">=" o "<=" 100 (in questo caso inseriamo "<=") e con console.log stamperemo i numeri da 1 a 100;
 
 //for ( let i = 0; i < 100 ; i++){ 
         //stamperemo i numeri}
@@ -18,9 +18,9 @@
 
 //individuare i multipli si può usare l'operatore % che calcola la divisione. Un numero è multiplo di 5 o di 3 qando il resto è 0.
 
-//useremo l'operatore di uguaglianza ==
+//useremo l'operatore relazionale di uguaglianza == e di identità
 
-for ( let i = 0; i < 100 ; i++){
+for ( let i = 1; i <= 100 ; i++){
     console.log(i);
     
 if (i % 3 === 0 && i % 5 === 0 ){ 
